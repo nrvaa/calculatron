@@ -26,7 +26,7 @@ body{
 }
 
 #display{
-    width: 100%;
+    width: 7.1em;
     padding: 25px;
     margin: 0;
     font-size: 4rem;
@@ -34,7 +34,7 @@ body{
     border: none;
     background-color: hsl(164, 91%, 13%) ;
     color: #FFF9F9;
-    font-family: poppins;
+    font-family: montserrat;
     font-weight: bold;
 }
 
@@ -53,28 +53,34 @@ button{
     border-radius: 50px;
     border: none;
     color: #FFF9F9;
-    background-color: rgb(43, 191, 154);
+    background-color: hsl(165, 63%, 46%);
     font-size: 30px;
     cursor: pointer;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(145deg, #2ecca5, #27ac8b);
-    box-shadow: inset  -5px -5px 6px #25a283,
-             inset 5px 5px 6px #31dcb1;
+    background: linear-gradient(145deg, hsl(165, 63%, 49%), hsl(165, 63%, 41%));
+    box-shadow: inset  -5px -5px 6px hsl(165, 62%, 39%),
+             inset 5px 5px 6px hsl(165, 71%, 53%);
     position: relative;
 }
 
 
 button:hover{
-    background-color: hsl(165, 63%, 56%);
+    background: linear-gradient(145deg, hsl(165, 63%, 56%), hsl(165, 63%, 51%));
+    box-shadow: inset  -5px -5px 6px hsl(165, 62%, 49%),
+             inset 5px 5px 6px hsl(165, 71%, 63%);
+    position: relative;
 }
 
 button:active{
-    background-color: hsl(165, 63%, 66%);
+    background: linear-gradient(145deg, hsl(165, 63%, 66%), hsl(165, 63%, 61%));
+    box-shadow: inset  -5px -5px 6px hsl(165, 62%, 59%),
+             inset 5px 5px 6px hsl(165, 71%, 73%);
+    position: relative;
 }
 
 .label-bawah{
-    font-family: poppins;
+    font-family: bebas neue;
     color: #FFF9F9;
     display: flex;
     width: 100%;
@@ -82,6 +88,7 @@ button:active{
 }
 
 .label-bawah h1{
+    font-family: ;
     padding: 0;
     background-color: #25a283;
     padding: 1rem 2rem;
@@ -96,9 +103,13 @@ button:active{
 }
 
 .operator:hover{
-    background-color: hsl(187, 99%, 46%);
+    background: linear-gradient(145deg, hsl(187, 93%, 52%), hsl(187, 96%, 41%));
+    box-shadow: inset  -5px -5px 6px hsl(187, 96%, 41%),
+             inset 5px 5px 6px hsl(187, 93%, 52%);
 }
 
 .operator:active{
-    background-color: hsl(187, 99%, 56%);
+    background: linear-gradient(145deg, hsl(187, 93%, 62%), hsl(187, 96%, 51%));
+    box-shadow: inset  -5px -5px 6px hsl(187, 96%, 51%),
+             inset 5px 5px 6px hsl(187, 93%, 62%);
 }
